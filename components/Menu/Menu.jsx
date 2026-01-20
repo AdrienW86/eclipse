@@ -33,9 +33,16 @@ export default function Menu() {
             </button>
             {isServicesOpen && (
               <div className={styles.dropdownContent}>
-                <Link href="/services/peinture" className={styles.dropdownLink}>Peinture</Link>
-                <Link href="/services/couverture" className={styles.dropdownLink}>Couverture</Link>
-                <Link href="/services/isolation" className={styles.dropdownLink}>Isolation</Link>
+                <Link href="/renovation" className={styles.li} onClick={() => setIsOpen(false)}>Rénovation de toiture</Link>
+                <Link href="/zinguerie" className={styles.li} onClick={() => setIsOpen(false)}>Zinguerie</Link>
+                <Link href="/charpente" className={styles.li} onClick={() => setIsOpen(false)}>Charpente</Link>
+                <Link href="/etancheite" className={styles.li} onClick={() => setIsOpen(false)}>Travaux d'étanchéité</Link>
+                <Link href="/traitement-hydrofuge" className={styles.li} onClick={() => setIsOpen(false)}>Traitement hydrofuge</Link>
+                <Link href="/nettoyage-toiture" className={styles.li} onClick={() => setIsOpen(false)}>Nettoyage de toiture</Link>
+                <Link href="/nettoyage-facade-et-terrasse" className={styles.li} onClick={() => setIsOpen(false)}>Nettoyage façade et terrasse</Link>
+                <Link href="/maconnerie" className={styles.li} onClick={() => setIsOpen(false)}>Maçonnerie générale</Link>
+                <Link href="/peinture" className={styles.li} onClick={() => setIsOpen(false)}>Peinture générale</Link>
+                <Link href="/desamiantage" className={styles.li} onClick={() => setIsOpen(false)}>Désamiantage</Link>
               </div>
             )}
           </div>
@@ -72,9 +79,16 @@ export default function Menu() {
           </button>
           {isServicesOpen && (
             <div className={styles.mobileDropdown}>
-              <Link href="/services/peinture" className={styles.mobile_li} onClick={() => setIsOpen(false)}>Peinture</Link>
-              <Link href="/services/couverture" className={styles.mobile_li} onClick={() => setIsOpen(false)}>Couverture</Link>
-              <Link href="/services/isolation" className={styles.mobile_li} onClick={() => setIsOpen(false)}>Isolation</Link>
+              <Link href="/renovation" className={styles.mobile_li} onClick={() => setIsOpen(false)}>Rénovation de toiture</Link>
+              <Link href="/zinguerie" className={styles.mobile_li} onClick={() => setIsOpen(false)}>Zinguerie</Link>
+              <Link href="/charpente" className={styles.mobile_li} onClick={() => setIsOpen(false)}>Charpente</Link>
+              <Link href="/etancheite" className={styles.mobile_li} onClick={() => setIsOpen(false)}>Travaux d'étanchéité</Link>
+              <Link href="/traitement-hydrofuge" className={styles.mobile_li} onClick={() => setIsOpen(false)}>Traitement hydrofuge</Link>
+              <Link href="/nettoyage-toiture" className={styles.mobile_li} onClick={() => setIsOpen(false)}>Nettoyage de toiture</Link>
+              <Link href="/nettoyage-facade-et-terrasse" className={styles.mobile_li} onClick={() => setIsOpen(false)}>Nettoyage façade et terrasse</Link>
+              <Link href="/maconnerie" className={styles.mobile_li} onClick={() => setIsOpen(false)}>Maçonnerie générale</Link>
+              <Link href="/peinture" className={styles.mobile_li} onClick={() => setIsOpen(false)}>Peinture générale</Link>
+              <Link href="/desamiantage" className={styles.mobile_li} onClick={() => setIsOpen(false)}>Désamiantage</Link>
             </div>
           )}
 

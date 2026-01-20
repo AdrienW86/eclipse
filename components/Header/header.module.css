@@ -105,3 +105,9 @@
     transform: scale(1.1);
     background-color: #0b0835;
 }
+
+@media (max-width: 840px) {
+    .google_reviews, .adress {
+        display: none
+    }
+}
