@@ -1,0 +1,107 @@
+.header {
+    height: 130px;
+    display: flex;
+    background-color: white;
+}
+
+.logo_container {
+    padding-left: 20px;
+    width: 25%
+}
+
+.google_reviews {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 130px;
+    padding-top: 40px;
+}
+
+.google_logo {
+    margin: 10px auto 
+}
+
+.reviews {
+    color: black;
+    text-align: center;
+}
+
+.ranking {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+.stars {
+   position: relative;
+   bottom: 28px;
+   left:  5px
+}
+
+.adress {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.adress_container {
+    display: flex;
+}
+
+.localisation {
+    margin: 5px;
+}
+
+.p {
+    color: black;
+    font-weight: bold;
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+
+.contact { 
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-right: 20px;
+  position: absolute;
+  right: 10px;
+}
+
+.phone {
+  margin: 10px auto;
+  display: flex;
+  font-size: 1.5em;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #ffffff;
+  transition: .4s ease-in-out
+}
+
+.phone:hover {
+  border-bottom: 1px solid #000000;
+}
+
+.btn {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #db6d05;
+    padding: 20px;
+    transition: .4s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    background-color: #0b0835;
+}

@@ -1,0 +1,220 @@
+.menu {
+  width: 100%;
+  background-color: #0b0835;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  top: 0;
+  color: white;
+  z-index: 50;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.desktopNav {
+  display: none;
+  color: azure;
+  text-transform: uppercase;
+}
+
+.link {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.4s ease-in-out;
+}
+
+.link:hover {
+    background-color: #db6d05;
+}
+
+@media (min-width: 768px) {
+  .desktopNav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 1.5rem;
+    position: relative
+  }
+}
+
+/* Phone link */
+.phone {
+  font-weight: bold;
+  color: #0070f3;
+  border-bottom: 2px solid #0070f3;
+  padding-bottom: 2px;
+  text-decoration: none;
+}
+
+.phone:hover {
+  border-color: #005bb5;
+}
+
+/* Button Devis */
+.btnDevis {
+  background: #e3342f;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btnDevis:hover {
+  background: #cc1f1a;
+}
+
+/* Hamburger */
+.hamburger {
+  display: block;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+}
+
+.hamburgerIcon {
+  width: 2rem;
+  height: 2rem;
+  color: #ffffff;
+}
+
+/* Mobile menu */
+.mobileNav {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.mobile_li {
+    text-decoration: none;
+    text-align: center;
+    color: #04021f;
+    font-weight: bold;
+    padding: 10px;
+    background: none;
+    border: none;
+}
+
+.mobile_li:hover {
+    color: white;
+    background-color: #070722;
+}
+
+@media (min-width: 768px) {
+  .mobileNav {
+    display: none;
+  }
+}
+
+.active {
+  background-color: #081625;
+  color: white;
+}
+
+/* Desktop and mobile link */
+.link, .mobile_li {
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+ 
+  text-transform: uppercase;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+/* Active page */
+.active {
+  background-color: #00142b;
+  color: white;
+}
+
+/* Dropdown content */
+.dropdownContent {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50px;
+  
+  background: white;
+  min-width: 150px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  z-index: 10;
+}
+
+/* Dropdown link */
+.dropdownLink {
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: #333;
+}
+
+.dropdownLink:hover {
+  background-color: #0070f3;
+  color: white;
+}
+
+/* Caret / flèche */
+.caret {
+  margin-left: 0.25rem;
+  transition: transform 0.2s;
+  display: inline-block;
+}
+
+.caretOpen {
+  transform: rotate(180deg);
+}
+
+/* Mobile dropdown */
+.mobileDropdown {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.mobileDropdownLink {
+  padding: 0.5rem 0;
+  text-decoration: none;
+  color: #333;
+}
+
+.mobileDropdownLink:hover {
+  color: #0070f3;
+}
+
+.dropdown button {
+  background: none;       /* supprime le gris */
+  border: none;           /* supprime le contour par défaut */
+  cursor: pointer;
+  font: inherit;          /* reprend la même police que les liens */
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  border-radius: 0.25rem;
+   color: white;
+}
+
+/* Flèche qui tourne */
+.caret {
+  margin-left: 0.25rem;
+  transition: transform 0.2s;
+  display: inline-block;
+}
+
+.caretOpen {
+  transform: rotate(180deg);
+}
