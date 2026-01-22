@@ -65,7 +65,7 @@ export default function Menu() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
             )}
           </svg>
-            <Link href='/contact' className={styles.btn}> DEMANDER UN DEVIS </Link>
+            <Link href='/contact' className={styles.btn} onClick={(e) => e.stopPropagation()}> DEMANDER UN DEVIS </Link>
           </div>
           
         </div>

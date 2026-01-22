@@ -205,13 +205,15 @@
    
   }
   .hamburgerIcon {
-   position: absolute;
-   left: 20px;
+    position: absolute;
+    left: 20px;
+    width: 30px
   }
   .btn {
     position: absolute;
     right: 20px;
     padding: 6px;
     border-radius: 4px;
+    z-index: 30
   }
 }
