@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { usePathname } from "next/navigation";
 import styles from "./menu.module.css";
 
@@ -53,18 +52,22 @@ export default function Menu() {
 
         {/* Hamburger mobile */}
         <div className={styles.hamburger} onClick={toggleMenu}>
-          <svg
-            className={styles.hamburgerIcon}
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
+          <div className={styles.contact}>
+            <svg
+              className={styles.hamburgerIcon}
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
             {isOpen ? (
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
             ) : (
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
             )}
           </svg>
+            <Link href='/contact' className={styles.btn}> DEMANDER UN DEVIS </Link>
+          </div>
+          
         </div>
       </div>
 
@@ -80,19 +83,13 @@ export default function Menu() {
           {isServicesOpen && (
             <div className={styles.mobileDropdown}>
               <Link href="/renovation" className={styles.mobile_li} onClick={() => setIsOpen(false)}>Rénovation de toiture</Link>
-              <Link href="/zinguerie" className={styles.mobile_li} onClick={() => setIsOpen(false)}>Zinguerie</Link>
-              <Link href="/charpente" className={styles.mobile_li} onClick={() => setIsOpen(false)}>Charpente</Link>
+              <Link href="/zinguerie" className={styles.mobile_li} onClick={() => setIsOpen(false)}>Zinguerie</Link>            
               <Link href="/etancheite" className={styles.mobile_li} onClick={() => setIsOpen(false)}>Travaux d'étanchéité</Link>
               <Link href="/traitement-hydrofuge" className={styles.mobile_li} onClick={() => setIsOpen(false)}>Traitement hydrofuge</Link>
               <Link href="/nettoyage-toiture" className={styles.mobile_li} onClick={() => setIsOpen(false)}>Nettoyage de toiture</Link>
-              <Link href="/nettoyage-facade-et-terrasse" className={styles.mobile_li} onClick={() => setIsOpen(false)}>Nettoyage façade et terrasse</Link>
-              <Link href="/maconnerie" className={styles.mobile_li} onClick={() => setIsOpen(false)}>Maçonnerie générale</Link>
-              <Link href="/peinture" className={styles.mobile_li} onClick={() => setIsOpen(false)}>Peinture générale</Link>
-              <Link href="/desamiantage" className={styles.mobile_li} onClick={() => setIsOpen(false)}>Désamiantage</Link>
+              <Link href="/nettoyage-facade-et-terrasse" className={styles.mobile_li} onClick={() => setIsOpen(false)}>Nettoyage façade et terrasse</Link>                          
             </div>
-          )}
-
-          <Link href="/realisations" className={styles.mobile_li} onClick={() => setIsOpen(false)}>Réalisations</Link>
+          )}        
           <Link href="/contact" className={styles.mobile_li} onClick={() => setIsOpen(false)}>Contact & Devis gratuit</Link>
         </nav>
       )}

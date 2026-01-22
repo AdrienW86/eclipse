@@ -111,3 +111,26 @@
         display: none
     }
 }
+
+@media (max-width: 450px) {
+    .phone {
+        font-weight: bold;
+        color: #0b0835;
+        border: 2px solid  #0b0835;
+        padding: 4px;
+        text-decoration: none;
+        position: absolute;
+        right: 10px;
+        width: 150px;
+        font-size: 1rem;
+        top: 40px;
+        border-radius: 20px;       
+    }
+    .phone:hover {
+        color: white;
+        background-color: #0b0835;
+    }
+    .btn {
+        display: none;
+    }
+}

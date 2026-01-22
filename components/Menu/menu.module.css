@@ -33,31 +33,14 @@
   background-color: #db6d05;
 }
 
-@media (min-width: 768px) {
-  .desktopNav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    gap: 1.5rem;
-    position: relative
-  }
-}
-
-/* Phone link */
-.phone {
+.btn {
   font-weight: bold;
-  color: #0070f3;
-  border-bottom: 2px solid #0070f3;
-  padding-bottom: 2px;
+  color: #ffffff;
+  border: 2px solid #fcfcfc;
+  padding: 4px;
   text-decoration: none;
 }
 
-.phone:hover {
-  border-color: #005bb5;
-}
-
-/* Button Devis */
 .btnDevis {
   background: #e3342f;
   color: white;
@@ -71,16 +54,9 @@
   background: #cc1f1a;
 }
 
-/* Hamburger */
 .hamburger {
   display: block;
   cursor: pointer;
-}
-
-@media (min-width: 768px) {
-  .hamburger {
-    display: none;
-  }
 }
 
 .hamburgerIcon {
@@ -89,7 +65,6 @@
   color: #ffffff;
 }
 
-/* Mobile menu */
 .mobileNav {
   display: flex;
   flex-direction: column;
@@ -117,31 +92,22 @@
   background-color: #070722;
 }
 
-@media (min-width: 768px) {
-  .mobileNav {
-    display: none;
-  }
-}
-
 .active {
   background-color: #081625;
   color: white;
 }
 
-/* Desktop and mobile link */
 .link, .mobile_li, .li {
   padding: 0.5rem 1rem;
   text-decoration: none;
   cursor: pointer;
 }
 
-/* Active page */
 .active {
   background-color: #00142b;
   color: white;
 }
 
-/* Dropdown content */
 .dropdownContent {
   display: flex;
   flex-direction: column;
@@ -153,7 +119,6 @@
   z-index: 10;
 }
 
-/* Dropdown link */
 .dropdownLink {
   padding: 0.5rem 1rem;
   text-decoration: none;
@@ -165,7 +130,6 @@
   color: white;
 }
 
-/* Caret / flèche */
 .caret {
   margin-left: 0.25rem;
   transition: transform 0.2s;
@@ -176,11 +140,9 @@
   transform: rotate(180deg);
 }
 
-/* Mobile dropdown */
 .mobileDropdown {
   display: flex;
-  flex-direction: column;
-  
+  flex-direction: column; 
 }
 
 .mobileDropdownLink {
@@ -194,16 +156,15 @@
 }
 
 .dropdown button {
-  background: none;       /* supprime le gris */
-  border: none;           /* supprime le contour par défaut */
+  background: none;       
+  border: none;           
   cursor: pointer;
-  font: inherit;          /* reprend la même police que les liens */
+  font: inherit;          
   padding: 0.5rem 1rem;
   text-transform: uppercase;
    color: white;
 }
 
-/* Flèche qui tourne */
 .caret {
   margin-left: 0.25rem;
   transition: transform 0.2s;
@@ -212,4 +173,45 @@
 
 .caretOpen {
   transform: rotate(180deg);
+}
+
+@media (min-width: 768px) {
+  .desktopNav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 1.5rem;
+    position: relative
+  }
+  .hamburger {
+    display: none;
+  }
+  .mobileNav {
+    display: none;
+  }
+}
+
+@media (min-width: 450px) {
+  .btn {
+    display: none
+  }    
+}
+
+@media (max-width: 450px) {
+  .contact {
+    width: 100%;
+    height: 30px;
+   
+  }
+  .hamburgerIcon {
+   position: absolute;
+   left: 20px;
+  }
+  .btn {
+    position: absolute;
+    right: 20px;
+    padding: 6px;
+    border-radius: 4px;
+  }
 }

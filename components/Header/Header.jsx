@@ -51,7 +51,7 @@ export default function Header() {
                 📞 06 75 60 59 40
             </Link>
             <Link href='/contact"' className={styles.btn}> DEMANDER UN DEVIS </Link>
-    </div>
+        </div>
     </header>
   )
 }
