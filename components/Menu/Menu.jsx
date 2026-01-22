@@ -34,19 +34,13 @@ export default function Menu() {
               <div className={styles.dropdownContent}>
                 <Link href="/renovation" className={styles.li} onClick={() => setIsOpen(false)}>Rénovation de toiture</Link>
                 <Link href="/zinguerie" className={styles.li} onClick={() => setIsOpen(false)}>Zinguerie</Link>
-                <Link href="/charpente" className={styles.li} onClick={() => setIsOpen(false)}>Charpente</Link>
                 <Link href="/etancheite" className={styles.li} onClick={() => setIsOpen(false)}>Travaux d'étanchéité</Link>
                 <Link href="/traitement-hydrofuge" className={styles.li} onClick={() => setIsOpen(false)}>Traitement hydrofuge</Link>
                 <Link href="/nettoyage-toiture" className={styles.li} onClick={() => setIsOpen(false)}>Nettoyage de toiture</Link>
                 <Link href="/nettoyage-facade-et-terrasse" className={styles.li} onClick={() => setIsOpen(false)}>Nettoyage façade et terrasse</Link>
-                <Link href="/maconnerie" className={styles.li} onClick={() => setIsOpen(false)}>Maçonnerie générale</Link>
-                <Link href="/peinture" className={styles.li} onClick={() => setIsOpen(false)}>Peinture générale</Link>
-                <Link href="/desamiantage" className={styles.li} onClick={() => setIsOpen(false)}>Désamiantage</Link>
               </div>
             )}
           </div>
-
-          <Link href="/realisations" className={`${styles.link} ${pathname === "/realisations" ? styles.active : ""}`}>Réalisations</Link>
           <Link href="/contact" className={`${styles.link} ${pathname === "/contact" ? styles.active : ""}`}>Contact & Devis gratuit</Link>
         </nav>
 
