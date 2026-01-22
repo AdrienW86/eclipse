@@ -35,9 +35,9 @@ export default function Menu() {
                 <Link href="/renovation" className={styles.li} onClick={() => setIsOpen(false)}>Rénovation de toiture</Link>
                 <Link href="/zinguerie" className={styles.li} onClick={() => setIsOpen(false)}>Zinguerie</Link>
                 <Link href="/etancheite" className={styles.li} onClick={() => setIsOpen(false)}>Travaux d'étanchéité</Link>
-                <Link href="/traitement-hydrofuge" className={styles.li} onClick={() => setIsOpen(false)}>Traitement hydrofuge</Link>
+                <Link href="/hydrofuge" className={styles.li} onClick={() => setIsOpen(false)}>Traitement hydrofuge</Link>
                 <Link href="/nettoyage-toiture" className={styles.li} onClick={() => setIsOpen(false)}>Nettoyage de toiture</Link>
-                <Link href="/nettoyage-facade-et-terrasse" className={styles.li} onClick={() => setIsOpen(false)}>Nettoyage façade et terrasse</Link>
+                <Link href="/nettoyage-facade" className={styles.li} onClick={() => setIsOpen(false)}>Nettoyage façade et terrasse</Link>
               </div>
             )}
           </div>
@@ -60,8 +60,7 @@ export default function Menu() {
             )}
           </svg>
             <Link href='/contact' className={styles.btn} onClick={(e) => e.stopPropagation()}> DEMANDER UN DEVIS </Link>
-          </div>
-          
+          </div>         
         </div>
       </div>
 
@@ -79,9 +78,9 @@ export default function Menu() {
               <Link href="/renovation" className={styles.mobile_li} onClick={() => setIsOpen(false)}>Rénovation de toiture</Link>
               <Link href="/zinguerie" className={styles.mobile_li} onClick={() => setIsOpen(false)}>Zinguerie</Link>            
               <Link href="/etancheite" className={styles.mobile_li} onClick={() => setIsOpen(false)}>Travaux d'étanchéité</Link>
-              <Link href="/traitement-hydrofuge" className={styles.mobile_li} onClick={() => setIsOpen(false)}>Traitement hydrofuge</Link>
+              <Link href="/hydrofuge" className={styles.mobile_li} onClick={() => setIsOpen(false)}>Traitement hydrofuge</Link>
               <Link href="/nettoyage-toiture" className={styles.mobile_li} onClick={() => setIsOpen(false)}>Nettoyage de toiture</Link>
-              <Link href="/nettoyage-facade-et-terrasse" className={styles.mobile_li} onClick={() => setIsOpen(false)}>Nettoyage façade et terrasse</Link>                          
+              <Link href="/nettoyage-facade" className={styles.mobile_li} onClick={() => setIsOpen(false)}>Nettoyage façade et terrasse</Link>                          
             </div>
           )}        
           <Link href="/contact" className={styles.mobile_li} onClick={() => setIsOpen(false)}>Contact & Devis gratuit</Link>

@@ -1,4 +1,30 @@
 .footer {
-    height: 150px;
+    display: flex;
+    flex-direction: column;
     background-color: #0b0835;
+}
+
+.p {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.mentions {
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.drop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.li {
+    color: white;
+    margin: 10px;
 }

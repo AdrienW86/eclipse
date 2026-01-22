@@ -25,7 +25,7 @@ export default function Banner(props) {
       </div>
 
       <Image
-        src="/banner.png"
+        src={props.url}
         alt="Nos services de couverture et peinture"
         fill
         className={styles.image}

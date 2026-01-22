@@ -6,6 +6,7 @@ export default function Home() {
    <>
       <Banner 
         title="Couvreur à Perpignan et Rivesaltes" 
+        url = "/banner.png"
         description = "Artisan couvreur Perpignan – Rénovation de toiture – Infiltration d'eau – Démoussage et nettoyage des tuiles – Charpente, zinguerie & isolation – Remplacement de tuiles" 
       />
        <Card />

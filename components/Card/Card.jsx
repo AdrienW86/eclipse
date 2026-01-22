@@ -104,11 +104,9 @@ export default function Card() {
               className={styles.image}
             />
           </div>
-
           <h3 className={styles.h3}>{service.title}</h3>
-          <p className={styles.subtitle}>{service.subtitle}</p>
-          <p className={styles.description}>{service.description}</p>
-
+            <p className={styles.subtitle}>{service.subtitle}</p>
+            <p className={styles.description}>{service.description}</p>
           <Link href={`/${service.slug}`} className={styles.btn}>
             {service.cta}
           </Link>

@@ -1,7 +1,11 @@
-import React from 'react'
+import React from "react";
+import Form from "@/components/Form/Form";
+import styles from "./page.module.css";
 
 export default function page() {
   return (
-    <div>page</div>
-  )
+    <main className={styles.page}>
+      <Form />
+    </main>
+  );
 }

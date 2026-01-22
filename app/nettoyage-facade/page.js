@@ -1,0 +1,14 @@
+import React from 'react'
+import Banner from '@/components/Banner/Banner'
+
+export default function page() {
+  return (
+    <>
+        <Banner 
+            title="Couvreur à Perpignan et Rivesaltes" 
+            url = "/facades.png"
+            description = "Artisan couvreur Perpignan – Rénovation de toiture – Infiltration d'eau – Démoussage et nettoyage des tuiles – Charpente, zinguerie & isolation – Remplacement de tuiles" 
+        />
+    </>
+  )
+}
