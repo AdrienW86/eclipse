@@ -4,6 +4,10 @@
     background-color: #0b0835;
 }
 
+.logo {
+    margin: 20px auto;
+}
+
 .p {
     width: 100%;
     padding: 20px;
@@ -27,4 +31,22 @@
 .li {
     color: white;
     margin: 10px;
+}
+
+.codev {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    width: 100%;
+    text-align: center
+}
+
+.span:hover {
+    text-decoration: underline;
+}
+
+.span {
+    transition: .4s ease-in-out;
+    font-style: italic;
+    color: var(--orange)
 }

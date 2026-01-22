@@ -7,8 +7,7 @@
 }
 
 .card {
-   background: linear-gradient(135deg, #c6c4ec, #ffffff);
-
+    background: linear-gradient(135deg, #c6c4ec, #ffffff);
     margin: 20px auto;
     border-radius: 20px;
     max-width: 500px;  
@@ -18,7 +17,6 @@
     flex-direction: column;
 }
 
-
 .imageWrapper {
   position: relative;
   width: 100%;
@@ -26,10 +24,11 @@
 }
 
 .h2 {
-    color: white;
+    
     padding: 20px;
     text-align: center;
-    background-color: var(--orange);
+    color: var(--orange);
+    background-color: white;
 }
 
 .h3 {

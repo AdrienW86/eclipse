@@ -1,0 +1,40 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background-color: white;;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--orange);
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.sectionTitle {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  color: #1a1a1a;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.3rem;
+}
+
+.text {
+  margin-bottom: 0.8rem;
+}
+
+.link {
+  color: #0070f3;
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: #0051a3;
+}
