@@ -50,7 +50,7 @@ export default function Header() {
             <Link href="tel:+33675605940" className={styles.phone}>
                 📞 06 75 60 59 40
             </Link>
-            <Link href='/contact"' className={styles.btn}> DEMANDER UN DEVIS </Link>
+            <Link href='/contact' className={styles.btn}> DEMANDER UN DEVIS </Link>
         </div>
     </header>
   )
