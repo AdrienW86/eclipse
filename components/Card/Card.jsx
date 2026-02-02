@@ -6,7 +6,7 @@ import styles from './card.module.css'
 export default function Card() {
    const services = [
   {
-    slug: "renovation-toiture",
+    slug: "renovation",
     title: "Rénovation de toiture",
     subtitle: "Couvreur à Perpignan – rénovation de toiture tuiles",
     description:
@@ -48,7 +48,7 @@ export default function Card() {
     cta: "Travaux d’étanchéité"
   },
   {
-    slug: "traitement-hydrofuge",
+    slug: "hydrofuge",
     title: "Traitement hydrofuge",
     subtitle: "Protection et longévité de votre toiture",
     description:
