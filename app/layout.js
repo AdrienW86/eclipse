@@ -4,6 +4,7 @@ import Menu from "@/components/Menu/Menu";
 import Zone from "@/components/Zone/Zone";
 import Form from "@/components/Form/Form";
 import Footer from "@/components/Footer/Footer";
+import Call from "@/components/Call/Call";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -31,6 +32,7 @@ export default function RootLayout({ children }) {
         <Zone />
         <Form />
         <Footer />
+        <Call />
       </body>
     </html>
   );

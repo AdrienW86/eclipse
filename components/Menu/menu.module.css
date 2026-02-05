@@ -5,6 +5,8 @@
   top: 0;
   color: white;
   z-index: 50;
+  position: sticky;
+  top: 0; /* Distance du haut de la fenêtre */
 }
 
 .container {

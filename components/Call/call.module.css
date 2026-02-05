@@ -1,0 +1,11 @@
+.phone {
+    position: fixed;
+    bottom : 50px;
+    left: 20px;
+    color: white;
+    padding: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: var(--orange);
+}
