@@ -43,7 +43,7 @@ export default function Header() {
                     alt="localisation"
                     className={styles.localisation}
                 />
-            <p className={styles.p}> 1 rue Louis Torcatis <br/> 66600 Rivesaltes </p>
+            <p className={styles.p}> 66600 Rivesaltes </p>
             </div>
         </div>
          <div className={styles.contact}>

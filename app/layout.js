@@ -1,6 +1,8 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import Header from "@/components/Header/Header";
 import Menu from "@/components/Menu/Menu";
+import Zone from "@/components/Zone/Zone";
+import Form from "@/components/Form/Form";
 import Footer from "@/components/Footer/Footer";
 import "./globals.css";
 
@@ -15,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Eclipse Couverture",
+  title: "Eclipse",
   description: "Votre couvreur professionnel sur Perpignan et les environs.",
 };
 
@@ -26,6 +28,8 @@ export default function RootLayout({ children }) {
         <Header />
         <Menu />
         {children}
+        <Zone />
+        <Form />
         <Footer />
       </body>
     </html>
