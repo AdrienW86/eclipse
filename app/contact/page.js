@@ -5,10 +5,15 @@ import styles from "./page.module.css";
 
 export default function Page() {
   return (
-    <main className={styles.page} id="contact-form">
-      <Form />
+    <main className={styles.page}>
+      {/* 👇 Ancre ici */}
+      <div >
+        <Form />
+      </div>
+
       <Maps />
     </main>
   );
 }
+
 

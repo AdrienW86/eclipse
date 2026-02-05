@@ -41,12 +41,12 @@ export default function Menu() {
               </div>
             )}
           </div>
-            <Link 
-              href="/contact#contact-form" 
+            <a 
+              href="/contact#form" 
               className={`${styles.link} ${pathname === "/contact" ? styles.active : ""}`}
             >
             Contact & Devis gratuit
-          </Link>
+          </a>
         </nav>
 
         {/* Hamburger mobile */}

@@ -5,5 +5,10 @@
     url("/contact.png");
   background-size: cover;
   background-position: center;
-  padding-top: 100px;
+  padding-top: 60px;
+}
+
+#form {
+  scroll-margin-top: 100px;
+  background-color: blue; /* mettre la hauteur de ton header */
 }
