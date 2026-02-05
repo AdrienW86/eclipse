@@ -50,3 +50,9 @@
     font-style: italic;
     color: var(--orange)
 }
+
+.facebook {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

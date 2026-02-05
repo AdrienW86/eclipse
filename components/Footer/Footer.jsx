@@ -14,6 +14,15 @@ export default function Footer() {
         className={styles.logo}
       />
       <p className={styles.p}>2026 © Eclipse Couverture </p>
+      <Link href="https://www.facebook.com/profile.php?id=100094681599939&locale=fr_FR" className={styles.facebook}>      
+        <Image
+          src='/facebook.png'
+          width={50}
+          height={50} 
+          alt="logo de l'entreprise"
+          className={styles.logo}
+        />
+      </Link>
       <Link href="/mentions" className={styles.mentions}> Mentions légales</Link>
        <Link href="/politique-confidentialite" className={styles.mentions}> Politique de confidentialité</Link>
       <div className={styles.drop}>
