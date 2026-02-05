@@ -18,7 +18,7 @@ export default function Banner(props) {
           Demander un devis gratuit
         </a>
          <a href="tel:+33675605940" className={styles.phone}>
-                📞 06 75 60 59 40
+            📞 06 75 60 59 40
         </a>
         <p className={styles.p}> Contactez-nous du lundi au vendredi, de 8h à 19h  <br/> Intervention d'urgence les jours fériés et les week end de 19h à 8h (horaire de nuit)</p>
        </div>
