@@ -2,20 +2,10 @@ import { Geist, Geist_Mono } from "next/font/google";
 import Header from "@/components/Header/Header";
 import Menu from "@/components/Menu/Menu";
 import Zone from "@/components/Zone/Zone";
-import Form from "@/components/Form/Form";
+import ConditionalForm from "@/components/ConditionalForm";
 import Footer from "@/components/Footer/Footer";
 import Call from "@/components/Call/Call";
 import "./globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata = {
   title: "Eclipse",
@@ -25,12 +15,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="fr">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body>
         <Header />
         <Menu />
         {children}
         <Zone />
-        <Form />
+        <ConditionalForm /> {/* 👈 magique */}
         <Footer />
         <Call />
       </body>
