@@ -47,9 +47,14 @@ export default function Header() {
             </div>
         </div>
          <div className={styles.contact}>
-            <Link href="tel:+33675605940" className={styles.phone}>
+            <div className={styles.phoneLink}> 
+                <Link href="tel:+33675605940" className={styles.phone}>
                 📞 06 75 60 59 40
+            </Link> 
+             <Link href="tel:+33434122843" className={styles.phone2}>
+                📞 04 34 12 28 43
             </Link>
+            </div>
             <Link href='/contact' className={styles.btn}> DEMANDER UN DEVIS </Link>
         </div>
     </header>
