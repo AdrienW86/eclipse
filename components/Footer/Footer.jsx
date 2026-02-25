@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <Image
-        src='/logo.png'
+        src='/logo2.png'
         width={130}
         height={130} 
         alt="logo de l'entreprise"
