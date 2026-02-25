@@ -47,6 +47,7 @@ export default function Menu() {
             >
             Contact & Devis gratuit
           </a>
+           <Link href="/histoire" className={styles.link} onClick={() => setIsOpen(false)}>Histoire</Link>
         </nav>
 
         {/* Hamburger mobile */}
@@ -89,6 +90,7 @@ export default function Menu() {
             </div>
           )}        
           <Link href="/contact" className={styles.mobile_li} onClick={() => setIsOpen(false)}>Contact & Devis gratuit</Link>
+          <Link href="/histoire" className={styles.mobile_li} onClick={() => setIsOpen(false)}>Notre histoire</Link>
         </nav>
       )}
     </header>
