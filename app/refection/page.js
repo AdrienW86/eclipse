@@ -4,7 +4,7 @@ import Description from '@/components/Description/Description'
 
 export default function page() {
   const serviceData = {
-    title: "Travaux d’étanchéité",
+    title: "Réfection de toiture",
     description:
       "Étanchéité de toitures plates et terrasses par membrane EPDM, bitume ou étanchéité liquide afin de protéger durablement les bâtiments contre l’humidité et les infiltrations.",
     faqs: [

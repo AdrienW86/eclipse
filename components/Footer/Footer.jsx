@@ -28,7 +28,7 @@ export default function Footer() {
       <div className={styles.drop}>
         <Link href="/renovation" className={styles.li}>Rénovation de toiture</Link>
         <Link href="/zinguerie" className={styles.li}>Zinguerie</Link>
-        <Link href="/etancheite" className={styles.li}>Travaux d'étanchéité</Link>
+        <Link href="/refection" className={styles.li}>Réfection de toiture</Link>
         <Link href="/hydrofuge" className={styles.li}>Traitement hydrofuge</Link>
         <Link href="/nettoyage-toiture" className={styles.li}>Nettoyage de toiture</Link>
         <Link href="/nettoyage-facade" className={styles.li}>Nettoyage façade et terrasse</Link>

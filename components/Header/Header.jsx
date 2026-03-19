@@ -9,8 +9,8 @@ export default function Header() {
         <div className={styles.logo_container}>
             <Image
                 src='/logo.png'
-                width={130}
-                height={130} 
+                width={200}
+                height={200} 
                 alt="logo de l'entreprise"
             />
         </div>

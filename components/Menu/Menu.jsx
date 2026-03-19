@@ -34,7 +34,7 @@ export default function Menu() {
               <div className={styles.dropdownContent}>
                 <Link href="/renovation" className={styles.li} onClick={() => setIsOpen(false)}>Rénovation de toiture</Link>
                 <Link href="/zinguerie" className={styles.li} onClick={() => setIsOpen(false)}>Zinguerie</Link>
-                <Link href="/etancheite" className={styles.li} onClick={() => setIsOpen(false)}>Travaux d'étanchéité</Link>
+                <Link href="/refection" className={styles.li} onClick={() => setIsOpen(false)}>Réfection de toiture</Link>
                 <Link href="/hydrofuge" className={styles.li} onClick={() => setIsOpen(false)}>Traitement hydrofuge</Link>
                 <Link href="/nettoyage-toiture" className={styles.li} onClick={() => setIsOpen(false)}>Nettoyage de toiture</Link>
                 <Link href="/nettoyage-facade" className={styles.li} onClick={() => setIsOpen(false)}>Nettoyage façade et terrasse</Link>
@@ -47,7 +47,7 @@ export default function Menu() {
             >
             Contact & Devis gratuit
           </a>
-           <Link href="/histoire" className={styles.link} onClick={() => setIsOpen(false)}>Histoire</Link>
+           <Link href="/histoire" className={styles.link} onClick={() => setIsOpen(false)}>Notre Histoire</Link>
         </nav>
 
         {/* Hamburger mobile */}
@@ -83,7 +83,7 @@ export default function Menu() {
             <div className={styles.mobileDropdown}>
               <Link href="/renovation" className={styles.mobile_li} onClick={() => setIsOpen(false)}>Rénovation de toiture</Link>
               <Link href="/zinguerie" className={styles.mobile_li} onClick={() => setIsOpen(false)}>Zinguerie</Link>            
-              <Link href="/etancheite" className={styles.mobile_li} onClick={() => setIsOpen(false)}>Travaux d'étanchéité</Link>
+              <Link href="/refection" className={styles.mobile_li} onClick={() => setIsOpen(false)}>Réfection de toiture</Link>
               <Link href="/hydrofuge" className={styles.mobile_li} onClick={() => setIsOpen(false)}>Traitement hydrofuge</Link>
               <Link href="/nettoyage-toiture" className={styles.mobile_li} onClick={() => setIsOpen(false)}>Nettoyage de toiture</Link>
               <Link href="/nettoyage-facade" className={styles.mobile_li} onClick={() => setIsOpen(false)}>Nettoyage façade et terrasse</Link>                          
