@@ -1,11 +1,12 @@
 :root {
   --orange: #db6d05;
-  --blue: #0b0835;
+  --blue: #000000;
+ --blue: #0b0835; 
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0b0835;
+    --background: #000000;
     --foreground: #ededed;
   }
 }
