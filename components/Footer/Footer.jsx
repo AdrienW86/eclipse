@@ -8,8 +8,8 @@ export default function Footer() {
     <footer className={styles.footer}>
       <Image
         src='/logo2.png'
-        width={130}
-        height={130} 
+        width={180}
+        height={180} 
         alt="logo de l'entreprise"
         className={styles.logo}
       />
