@@ -7,9 +7,9 @@ export default function Page() {
   return (
     <main className={styles.page}>
       {/* 👇 Ancre ici */}
-      <div >
+      
         <Form />
-      </div>
+      
 
       <Maps />
     </main>
