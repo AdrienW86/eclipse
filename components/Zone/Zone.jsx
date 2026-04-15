@@ -28,7 +28,7 @@ export default function Zone() {
 
   return (
     <section className={styles.zone}>
-      <h3 className={styles.h3}>Intervention dans les Pyrénées-Orientales et ses alentours</h3>
+      <h3 className={styles.h3}>Zone d'intervention</h3>
       <ul className= {styles.ul}>
         {interventionZones.map((ville, index) => (
           <li key={index} className={styles.li}>{ville} </li>

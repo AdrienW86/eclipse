@@ -20,7 +20,6 @@ export default function RootLayout({ children }) {
         <Menu />
         {children}
         <Zone />
-        <ConditionalForm /> {/* 👈 magique */}
         <Footer />
         <Call />
       </body>

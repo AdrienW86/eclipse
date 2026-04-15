@@ -1,5 +1,6 @@
 import Banner from "@/components/Banner/Banner";
 import Card from "@/components/Card/Card";
+import ConditionalForm from "@/components/ConditionalForm";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
         description = "Artisan couvreur Perpignan – Rénovation de toiture – Infiltration d'eau – Démoussage et nettoyage des tuiles – Charpente, zinguerie & isolation – Remplacement de tuiles" 
       />
        <Card />
+       <ConditionalForm />
    </>
   
   );
