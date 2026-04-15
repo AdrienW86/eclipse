@@ -37,7 +37,7 @@ export default function Card() {
   {
     slug: "refection",
     title: "Réfection de toiture",
-    subtitle: "Étanchéité EPDM et toit terrasse",
+    subtitle: "Réfection toiture et toit terrasse",
     description:
       "Réfection de toits plats et terrasses à Perpignan. Protection complète contre l’humidité pour prolonger la durée de vie et garantir la sécurité de la toiture.",
     image: {
