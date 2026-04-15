@@ -2,8 +2,10 @@ import { Geist, Geist_Mono } from "next/font/google";
 import Header from "@/components/Header/Header";
 import Menu from "@/components/Menu/Menu";
 import Zone from "@/components/Zone/Zone";
+import HoursEmergency from "@/components/Emergency/Emergency";
 import ConditionalForm from "@/components/ConditionalForm";
 import Footer from "@/components/Footer/Footer";
+
 import Call from "@/components/Call/Call";
 import "./globals.css";
 
@@ -19,6 +21,7 @@ export default function RootLayout({ children }) {
         <Header />
         <Menu />
         {children}
+        <HoursEmergency />
         <Zone />
         <Footer />
         <Call />
