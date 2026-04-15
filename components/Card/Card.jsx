@@ -35,17 +35,17 @@ export default function Card() {
     cta: "Zinguerie & gouttières"
   },
   {
-    slug: "etancheite",
-    title: "Travaux d’étanchéité",
+    slug: "refection",
+    title: "Réfection de toiture",
     subtitle: "Étanchéité EPDM et toit terrasse",
     description:
-      "Étanchéité de toits plats et terrasses par membrane EPDM, bitume ou étanchéité liquide à Perpignan. Protection complète contre l’humidité pour prolonger la durée de vie et garantir la sécurité de la toiture.",
+      "Réfection de toits plats et terrasses à Perpignan. Protection complète contre l’humidité pour prolonger la durée de vie et garantir la sécurité de la toiture.",
     image: {
-      src: "/etancheite.png",
-      alt: "Étanchéité de toiture terrasse EPDM"
+      src: "/refection.png",
+      alt: "Réfection de toiture"
     },
-    keywords: ["étanchéité EPDM", "toiture terrasse"],
-    cta: "Travaux d’étanchéité"
+    keywords: ["réfection de toiture", "toiture terrasse"],
+    cta: "Réfection de toiture"
   },
   {
     slug: "hydrofuge",
